@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,600&display=swap');
+
+*
+{
+    font-family:'Poppins', sans-serif ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width:100%;
+    height: auto;
+    background-color: #f5deb3;
+    position: relative;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    background-color: #f5deb3;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+nav
+{
+width: 100%;
+height: 120px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f5deb3;
+
+
+
+}
+
+
+#one
+{
+    color:#ec5800;
+    background-color: #f5deb3;
+    width: 65px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 41px;
+    border: solid 1.9px  #a0522d;
+    margin-bottom: 6px;
+    padding: 0px;
+    
+
+ }
+
+ #two
+ {
+   
+    font-weight: 600;
+    
+    color: #ec5800;
+    font-size: 25px;
+ }
+
+ ul{
+    
+    display: flex;
+    gap: 3em;
+    margin-right:55px ;
+
+    
+ 
+ }
+
+ .list-item
+ {
+  display:inline;
+  list-style: none;
+ }
+
+ .links
+ {
+    text-decoration: none;
+    color: #a0522d;
+    font-size: 23px;
+    transition: 0.2s;
+ }
+
+ .links:hover
+ {
+    color: #ec5800;
+    text-decoration: underline;
+ }
+
+ .secone
+ {
+ background-image: url("./photos/p7img1.jpg"); 
+width: 100%;
+height: 480px;
+background-size: cover;
+object-fit: cover;
+ }
+
+ .sectwo
+ {
+    width: 100%;
+    height: 660px;
+    background-color: #f5deb3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3.8rem; 
+    
+
+   
+ }
+
+ .sectwo-content
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5deb3;
+    height:395px;
+    text-align:right;
+    width:;
+     
+ }
+
+ .heading
+ {
+    height: auto;
+    width: 100%;
+    font-weight: 600;
+    font-size: 33px;
+    letter-spacing: 0.8px; 
+    background-color: ;
+    color: #a0522d;  
+ }
+
+ .desc
+ {
+   
+   font-size: 22px;
+   color: #a0522d;
+   font-weight: 500;
+   margin-bottom: 40px;
+ }
+
+ .seconddesc
+{
+  
+ 
+    background-color: #a0522d;
+    font-size: 24px;  
+    letter-spacing: 1px; 
+    padding:9px 27px 9px 27px ;
+    color: #f5deb3;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+    
+    
+    
+}
+
+.button
+{
+ 
+   height: 30px;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+}
+
+ .sub-image
+ {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+   
+ }
+
+
+ .secthree
+ {
+   width: 100%;
+    height: 640px;
+    background-color:#fcf5e8;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+   
+ }
+
+ .grid
+ {
+   
+   background-color: #ec5800;
+   height: ;
+  
+ }
+
+ .imggallery
+ {
+  display: grid;
+  gap: 25px;
+  grid-template-columns:repeat(6,1fr);
+  grid-template-rows: repeat(5,1fr);
+  width: 890px;
+  height: 510px;
+  background-color: #fcf5e8;
+ }
+
+ 
+ .item-1
+ {
+ grid-row:1/4 ;
+ grid-column:1/3 ;
+ margin-bottom: -10px;
+ background-image: url("./photos/p7img3.jpg");
+ background-size: cover;
+
+
+ }
+ .item-2
+ {
+ grid-row: 1/2;
+ grid-column:3/5 ;
+ margin-bottom: -35px;
+ background-image: url("./photos/p7img5.jpeg");
+ background-size: cover;
+ }
+ .item-3
+ {
+ grid-row:1/4 ;
+ grid-column:5/7 ;
+ margin-bottom: -45px;
+ background-image: url("./photos/p7img8.jpg");
+ background-size: cover;
+ }
+
+ .item-4
+ {
+   grid-row:4/6 ;
+   grid-column:1/3 ;
+   margin-top: 10px;
+   background-image: url("./photos/p7img10.jpg");
+   background-size: cover;
+ }
+ 
+ .item-5
+ {
+   grid-row: 2/6;
+   grid-column:3/5 ;
+   margin-top: 35px;
+   background-image: url("./photos/p7img9.jpg");
+   background-size: cover;
+ }
+
+ .item-6
+ {
+grid-row:4/6 ;
+grid-column:5/7 ;
+margin-top: 45px;
+background-image: url("./photos/p7img6.jpg");
+background-size: cover;
+ }
+
+ .img
+ {
+   
+max-width:100% ;
+max-height:100%;
+display: block;
+ }
+
+ .secfour
+ {
+   width: 100%;
+   height: 120px;
+   background-color: #f5deb3;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+
+ .text
+ {
+   display: flex;
+   justify-content: center;
+   font-size: 22px;
+   text-align: center;
+   font-weight: 500;
+   color: #ec5800;
+ }
+
+ .icon
+ {
+   height: 50px;
+   width: 50px;
+   display: flex; 
+   flex-direction: column; 
+   align-items: center;
+   justify-content: center; 
+   margin: 0px;
+   padding: 0px;  
+   color:#a0522d;
+ }
+
+
+
+ .message
+ {
+   font-size: 18px;
+   text-align: center;
+   margin: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 1px;
+   width: 170px;
+   font-weight: 500;
+  }
+
+  .secfive
+  {
+   width: 100%;
+   height: 320px;
+   background-color:#faefdb ;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    position: relative; 
+  }
+
+.logo-2
+{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+   height: 110px;
+   align-items: center;
+   background-color: #faefdb;
+   justify-content: center;
+    position: absolute; 
+    margin-right: 11px;
+   gap: 4px;
+     
+}
+
+#T-one
+{
+    color:#ec5800;
+    background-color: #f5deb3;
+    width: 120px;
+    height: auto;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 75px;
+    border: solid 1.9px  #a0522d;
+   
+    
+  
+
+ }
+
+ #T-two
+ {
+    font-weight: 900;
+
+    margin: 0px;
+    padding: 0px;
+    color: #ec5800;
+    font-size: 38px;
+ }
+
+.icon-collection
+{
+display: flex;
+flex-direction: row;
+
+}
+
+.brand
+{
+   color: #a0522d;
+   font-size: 30px;
+}
+
+
+.icon:hover .brand{
+   
+   animation: rotate 2s;
+}
+
+@keyframes rotate
+{
+   0%{
+       transform: rotate(30deg);
+   }
+
+   20%{
+       transform: rotate(-30deg);
+   }
+
+   40%{
+       transform: rotate(30deg);
+   }
+
+   60%{
+       transform: rotate(-30deg);
+  }
+
+80%{
+   transform: rotate(30deg);
+}
+100%{
+   transform: rotate(-30deg);
+}
+}
+
+
+.txtcontent
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  color: #a0522d;
+  font-weight: 500;
+  font-size:22px;
+ 
+}
+
+
+html{
+   scroll-behavior: smooth;
+}
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+ 
